@@ -15,6 +15,8 @@ Hugo Abstract is not a finished theme but rather a starting point for theme deve
 
 At the time of this writing, Skeleton had close to 20K stars on GitHub. You can naturally ask why I have not used a much more popular framework such as Bootstrap. I worked a lot with Bootstrap and it is good but for this project I wanted the barebones and extreme minimalism.
 
+Plus, the above makes Skeleton dead easy to understand.
+
 ## Why SASS?
 
 It could be obvious to the most but [SASS](https://sass-lang.com/) makes a CSS project much easier to manage. You can learn more about it on their website or on the web.
