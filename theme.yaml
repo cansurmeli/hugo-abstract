@@ -1,0 +1,30 @@
+name: "Hugo Abstract"
+license: "MIT"
+licenselink: 'https://github.com/themefisher/kross-hugo/blob/master/LICENSE'
+description: "Hugo Abstract is not a finished theme but rather a starting point for theme development. While having a foundation with Skeleton(SASS version) it provides the bare minimum for you to develop your brand new responsive Hugo theme."
+homepage: "https://www.github.com/cansurmeli/hugo-abstract"
+demosite: "https://hugo-abstract.cansurmeli.com"
+tags:
+  - responsive
+  - template
+  - foundation
+  - abstract
+  - light
+  - fast
+  - mobile
+  - modern
+  - skeleton
+  - clean
+  - simple
+  - customizable
+features:
+  - skeleton
+  - responsive
+  - abstract
+min_version: 0.64.0
+author:
+  name: "Can Sürmeli"
+  homepage: 'https://www.cansurmeli.com/'
+original:
+  name: "hugo-abstract"
+  homepage: "https://www.github.com/cansurmeli/hugo-abstract"
