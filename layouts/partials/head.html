@@ -7,4 +7,11 @@
 	<meta id="description" name="description" content="{{ block "description" . }}{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}{{ end }}"/>
 	<link rel="stylesheet" href="/css/styles.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	{{ "<!-- Main Stylesheet -->" | safeHTML }}
+	{{ $sass := resources.Get "skeleton/main.sass" }}
+	{{ $sass_styles := $sass | resources.ToCSS }}
+	{{ $sass_styles_minified := $sass_styles | resources.Minify }}
+	{{ $sass_styles_minified_secured := $sass_styles_minified | resources.Fingerprint "sha512" }}
+	<link rel="stylesheet" href="{{ $sass_styles_minified_secured.Permalink }}" media="screen">
 </head>
